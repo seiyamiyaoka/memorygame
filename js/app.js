@@ -40,7 +40,7 @@ function checkAnswer(answers) {
   if (answers[0] === answers[1]){
     correctAnswerCount += 1
     answerResult = [];
-    if(correctAnswerCount === 1){
+    if(correctAnswerCount === 8){
       $('h2').text("congraturation!!")
       $('.card-panel').fadeOut()
       $('.container').last().append($(`<div class="congraturatioin">your clear time ${answerCount}!</div><div class="resetButton"><button type="button" class="btn btn-primary">retry?</button></div>`)).fadeIn()
