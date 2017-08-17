@@ -1,5 +1,6 @@
 header {
   text-align: center;
+  margin: 0 auto;
 }
 
 .tab {
@@ -47,4 +48,16 @@ img {
 
 .flip-over {
   visibility: hidden;
+}
+
+.answerTime {
+  display: inline;
+}
+
+.congraturatioin {
+  text-align: center;
+}
+
+.resetButton{
+  text-align: center;
 }
