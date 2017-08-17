@@ -153,7 +153,7 @@ function setCardList() {
                    'goya8.jpeg'
                  ]
                 ]
-  cards[0].forEach((card) => {
+  cards[1].forEach((card) => {
     card_list.push(`<div class="card"><div class="flip-over"><img src="images/${card}" alt=${card}></div></div>`)
   })
   return card_list
