@@ -34,12 +34,17 @@ header {
   border: red 1px solid;
   width: 120px;
   height: 120px;
-  background-color: white;
   border-radius: 10px;
 }
 
-.card img {
+img {
   width: 100px;
   height: 100px;
   margin: 0 auto;
+  display: block;
+
+}
+
+.flip-over {
+  visibility: hidden;
 }
